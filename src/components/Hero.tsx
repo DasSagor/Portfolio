@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import profileImage from "@/assets/Profile-Picture.jpg";
 import { ArrowDown, Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
           <div className="w-32 h-32 sm:w-48 sm:h-48 mx-auto mb-8 relative">
             <div className="w-full h-full rounded-full glass glow overflow-hidden">
               <img
-                src="/src/assets/Profile-Picture.jpg"
+                src={profileImage}
                 alt="Sagor Das"
                 className="w-full h-full object-cover"
               />
