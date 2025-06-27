@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 
 const Navigation = () => {
@@ -66,7 +65,7 @@ const Navigation = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="text-xl font-bold text-gradient hover:opacity-80 transition-opacity duration-300"
           >
-            AC
+            DAS
           </button>
 
           {/* Desktop Navigation Links */}
